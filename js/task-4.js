@@ -3,8 +3,7 @@
 const formatString = function(string) {
     if(string.length < 40) {
       return string;
-      //  const copy = string.slice();
-      //   return copy;
+
     } else {
         const copy = string.slice(0,40);
         return copy + '...';
