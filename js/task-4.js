@@ -5,7 +5,7 @@ const formatString = function(string) {
        const copy = string.slice();
         return copy;
     } else {
-        const copy = string.slice(0,41);
+        const copy = string.slice(0,40);
         return copy + '...';
     }
     
